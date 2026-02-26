@@ -1,0 +1,14 @@
+{
+    "name": "claw-masters-hub",
+    "private": true,
+    "scripts": {
+        "lint": "pnpm -r run lint",
+        "format": "pnpm -r run format",
+        "test": "pnpm -r run test",
+        "typecheck": "pnpm --filter @claw/api-contracts build && pnpm -r run typecheck"
+    },
+    "devDependencies": {
+        "prettier": "^3.5.3",
+        "typescript": "~5.8.3"
+    }
+}
